@@ -2,7 +2,7 @@
 .calculator {
     width: 300px;
     margin: 0 auto;
-    border: 1px solid#bd5e5e;
+    border: 1px solid#7a5ebd;
     border-radius: 5px;
     padding: 10px;
 }
@@ -25,11 +25,11 @@
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    background-color: #b93e71;
+    background-color: #3e50b9;
     border: none;
  }
    button:hover{
-background-color: #f5a2a2;
+background-color: #8d6e6e;
    }
    button:active{
     background-color: aqua;
