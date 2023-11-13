@@ -15,7 +15,10 @@ function calculate() {
         const result = eval(expression);
         document.getElementById('result').valeue = 'Error';
         expression= '';
-    }
+    } catch(error){
+        document.getElementById('result').value = 'Error';
+        expression = '';
+}
 }
 
 function clear() {
