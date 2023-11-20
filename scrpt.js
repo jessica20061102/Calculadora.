@@ -1,6 +1,6 @@
-let expression='';
+let expression ='';
 
-function appendNumber(number) {
+function appendNumber(number){
     expression += number;
     Document.getElementByld('result').value = expression;
 }
@@ -10,18 +10,18 @@ function appendOperator(operator){
     document.getElementByld('result').value = expression;
 }
 
-function calculate() {
+function calculate(){
     try {
         const result = eval(expression);
-        document.getElementById('result').valeue = 'Error';
+        document.getElementById('result').value = result;
         expression= '';
-    } catch(error){
+    } catch (error) {
         document.getElementById('result').value = 'Error';
         expression = '';
-}
+  }
 }
 
 function clear() {
-    expression = '' ;
-    document.getElementByld('result').value = '' ;
+    expression = '';
+    document.getElementByld('result').value = '';
 }
